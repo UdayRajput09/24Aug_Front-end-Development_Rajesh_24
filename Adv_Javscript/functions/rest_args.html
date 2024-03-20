@@ -19,8 +19,6 @@ function data(a,b,c,d)
 
 data(1, 2, 3, 4); //we can provide inifite numbers as argument
 
-
-
 function addAll(...data)
 {
     for (var i = 0; i<data.length; i++)
@@ -30,22 +28,17 @@ function addAll(...data)
 }
 
 addAll(1, 2, 3, 4, 5,6,7,8,9); //we can provide inifite numbers as argument
+addAll(1, 2, 3, 4)
 
 
-
-
-
-function addAll1()
+function restpara()
 {
     for (var i = 0; i<arguments.length; i++)
 	{    
 		document.write(arguments[i] + "<br>")
     }
 }
-
-addAll1(1, 2, 3, 4, 5,6,7,8,9,10); //we can provide inifite numbers as argument
-
-
+restpara(1,5,8,7,8)
 
 </script>
 
