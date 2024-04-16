@@ -1,4 +1,5 @@
 <script>
+/*
 class abc
 {
 	constructor(a,b)
@@ -18,6 +19,46 @@ class abc
 var obj=new abc(5,5);
 obj.sum();
 obj.multi();
+
+*/
+
+class abc
+{
+	constructor(a,b)
+	{
+		this.a=a;
+		this.b=b;
+	}
+	sum() 
+	{
+		document.write(this.a+this.b +"<br>");
+	}
+	multi()
+	{
+		document.write(this.a*this.b +"<br>");
+	}
+}
+
+class xyz extends abc
+{
+	constructor(a,b,c){
+		super(a,b)
+		this.c=c;
+	}
+	sub()
+	{
+		document.write(this.a-this.b +"<br>");
+		document.write(this.c +"<br>");
+	}
+}
+
+
+var obj=new xyz(10,5,8);
+obj.sum();
+obj.multi();
+obj.sub();
+
+
 </script>
 
 
