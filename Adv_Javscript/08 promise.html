@@ -32,7 +32,7 @@ myPromise.then(
  
     <script>
 	
-      let songPublish = false;
+      let songPublish = true;
       let lottery = new Promise(function (resolve, reject) 
 	  {
         setTimeout(function () 
@@ -47,14 +47,17 @@ myPromise.then(
           }
         }, 2000);
       });
-	lottery.then((response) => document.write(response)).catch((err) => document.write(err));
+	lottery.then((response) => document.write(response)));
 
     </script>
 	
 
-	
-
-	
+	<!--
+	async()=>{
+	const res=await axio.get(``);
+	consol.log(res);
+	}
+	-->
 	
   </body>
 </html>
