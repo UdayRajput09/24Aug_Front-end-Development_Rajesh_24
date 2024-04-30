@@ -10,6 +10,8 @@ import Main_home from "./Layout/Main_home"
 import Module_css from "./Module_css/Module_css"
 import AMG from "./Props/Class/AMG"
 import BMS from "./Props/Function/BMS"
+import Sass_css from "./Sass_css/Sass_css"
+import Func_state from "./State/function/Func_state"
 
 
 function App() {
@@ -35,7 +37,16 @@ function App() {
 
             // Props
             //<BMS/>
-            <AMG/>
+            //<AMG/>
+
+            //<Sass_css/>
+
+
+            // state
+
+            <Func_state/>
+
+
         }
         
     
