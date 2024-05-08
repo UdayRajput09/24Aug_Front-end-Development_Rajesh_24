@@ -10,9 +10,12 @@ import Main_home from "./Layout/Main_home"
 import Module_css from "./Module_css/Module_css"
 import AMG from "./Props/Class/AMG"
 import BMS from "./Props/Function/BMS"
+import React_boostrap from "./React_boostrap/React_boostrap"
+import Simple_bootstrap from "./React_boostrap/Simple_bootstrap"
 import Sass_css from "./Sass_css/Sass_css"
 import Class_state from "./State/Class/Class_state"
 import Func_state from "./State/function/Func_state"
+import Styled_component from "./Styled_component/Styled_component"
 
 
 function App() {
@@ -45,9 +48,15 @@ function App() {
 
             // state
             //<Func_state/>
-            <Class_state/>
+            //<Class_state/>
+
+            // Boostrap / React-Bootstrap / Custome styled-component
+            //<Simple_bootstrap/>
+            //<React_boostrap/>
+            <Styled_component/>
 
         }
+
         
     
     </div>
